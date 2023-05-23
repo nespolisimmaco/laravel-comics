@@ -1,0 +1,41 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+header {
+    height: $header-height;
+}
+
+.ms_container {
+    @include container();
+}
+
+.logo {
+    img {
+        height: 70px;  
+    }
+}
+
+.header-links {
+    .header-list {
+        li {
+            list-style-type: none;
+            line-height: $header-height;
+            font-size: .7rem;
+            font-weight: 600;
+            position: relative;
+            
+            a {
+                text-decoration: none;
+                color: black;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid $primary-blue;
+    font-size: .8rem;
+    font-weight: 700;
+}
