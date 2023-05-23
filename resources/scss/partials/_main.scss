@@ -1,11 +1,14 @@
 
 @use "./variables" as *;
+
+// Jumbotron
 .jumbotron {
     height: 300px;
     background-image: url(/resources/img/jumbotron.jpg);
     background-size: cover;
 }
 
+// Comics
 .comics-container {
     padding: 2.5rem 0;
     position: relative;
@@ -44,5 +47,25 @@
         text-align: left;
         font-weight: 600;
         font-size: .8rem;
+    }
+}
+
+// Links
+.links {
+    background-color: $primary-blue;
+    padding: 2.5rem 0;
+}
+
+.link {
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+        img {
+            height: 40px;
+            margin-right: 1rem;
+        }
     }
 }

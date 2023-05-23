@@ -10,7 +10,7 @@
         @foreach ($comics_array as $comic)
             <div class="col">
                 <!-- Card -->
-                <div class="card h-100 bg-transparent">
+                <div class="card h-100 bg-transparent border-0">
                     <!-- Card image -->
                     <div class="card-image">
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">

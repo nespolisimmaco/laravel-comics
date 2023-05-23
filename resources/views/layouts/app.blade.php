@@ -13,8 +13,10 @@
 
 <body>
     @include('partials.header')
+    
     <main>
         @include('partials.main')
+        @include('partials.links')
     </main>
 
 </body>
