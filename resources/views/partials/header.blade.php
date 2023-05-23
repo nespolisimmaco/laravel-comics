@@ -1,3 +1,15 @@
+<div class="top-page">
+    <div class="ms_container">
+        <ul class="d-flex justify-content-end m-0">
+            <li>
+                <a href="#">DC POWER VISA <span>&reg;</span></a>
+            </li>
+            <li class="ms-5">
+                <a href="#">ADDITIONAL DC SITES</a>
+            </li>
+        </ul>
+    </div>
+</div>
 <header>
     <!-- Container -->
     <div class="ms_container">

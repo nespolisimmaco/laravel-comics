@@ -1,6 +1,22 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
+.top-page {
+    background-color: $primary-blue;
+    color: white;
+
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: .7rem;
+            font-weight: 600;
+        }
+    }
+}
+
 header {
     height: $header-height;
 }
