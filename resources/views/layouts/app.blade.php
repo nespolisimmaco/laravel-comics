@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DC.com - The official home of DC</title>
-    
+
     <!-- Styles -->
     @vite('resources/js/app.js')
 
@@ -13,8 +13,8 @@
 
 <body>
     @include('partials.header')
-    <main class="bg-light">
-        @yield('content')
+    <main>
+        @include('partials.main')
     </main>
 
 </body>

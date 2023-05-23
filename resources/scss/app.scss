@@ -1,4 +1,6 @@
+@use "./partials/variables" as *;
 @use "./partials/header";
+@use "./partials/main";
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
@@ -8,4 +10,9 @@ img {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background-color: $comics-background;
+    color: white;
 }

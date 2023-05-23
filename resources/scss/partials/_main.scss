@@ -1,0 +1,48 @@
+
+@use "./variables" as *;
+.jumbotron {
+    height: 300px;
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-size: cover;
+}
+
+.comics-container {
+    padding: 2.5rem 0;
+    position: relative;
+    text-align: center;
+
+    h3 {
+        background-color: $primary-blue;
+        display: inline-block;
+        padding: 10px 2rem;
+        position: absolute;
+        top: -30px;
+        left: 0;
+        font-weight: 700;
+    }
+
+    a {
+        background-color: $primary-blue;
+        padding: 10px 3rem;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.card {
+
+    &-image {
+        img {
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    
+    &-title {
+        text-align: left;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+}
