@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>TV page</h1>
+<h1>Fans page</h1>
 @endsection
